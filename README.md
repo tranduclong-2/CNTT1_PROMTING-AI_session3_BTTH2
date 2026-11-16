@@ -55,12 +55,14 @@ Input:
 "Shop giao hàng nhanh, sản phẩm đẹp và chất lượng tốt. Nhân viên tư vấn rất nhiệt tình. rất hài lòng!"
 
 Output:
+```
 {
   "sentiment": "Positive",
   "topics": ["Product", "Delivery", "Service"],
   "score": 5,
   "summary": "Khách hàng hài lòng với sản phẩm, giao hàng và nhân viên tư vấn"
 }
+```
 
 ### Ví dụ 2: Cảm xúc Negative
 
@@ -68,12 +70,14 @@ Input:
 "Sản phẩm bị móp méo khi nhận hàng, giao hàng quá chậm. Rất thất vọng."
 
 Output:
+```
 {
   "sentiment": "Negative",
   "topics": ["Product", "Delivery"],
   "score": ,
   "summary": "Giao hàng nhanh nhưng sản phẩm bóp méo."
 }
+```
 
 ### Ví dụ 3: Cảm xúc Neutral
 
@@ -81,23 +85,27 @@ Input:
 "Tôi đã nhận được đơn hàng hôm nay. Sản phẩm có màu xanh và ứng dụng hoạt động bình thường."
 
 Output:
+```
 {
   "sentiment": "Neutral",
   "topics": ["Product", "Delivery", "System"],
   "score": 3,
   "summary": "Khách hàng đã nhận hàng và ứng dụng hoạt động bình thường"
 }
+```
 
 ## QUY ĐỊNH ĐẦU RA
 
 Chỉ trả về một JSON Object hợp lệ theo cấu trúc:
 
+```
 {
   "sentiment": "Positive",
   "topics": ["Product", "Delivery"],
   "score": 2,
   "summary": "Giao hàng nhanh nhưng sản phẩm bị móp méo"
 }
+```
 
 Các quy định bắt buộc:
 
